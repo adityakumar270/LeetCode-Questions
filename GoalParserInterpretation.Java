@@ -1,0 +1,7 @@
+class GoalParserInterpretation {
+    public String interpret(String command) {
+        String result = command.replace("()", "o");
+        result = result.replace("(al)", "al");
+        return result;
+    }
+}
